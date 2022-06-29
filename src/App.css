@@ -13,3 +13,26 @@
   --location: #EF5757;
 --shedule: #E1AE4A;
 }
+.App{
+  overflow: hidden;
+  color: var(--black);
+  background: #f3f3f3;
+  padding: 1rem 1rem;
+}
+
+.blurblue{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #a6ddf0;
+  filter: blur(72px);
+}
+.blurpurple{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 30%;
+  background: #d0c0ff;
+  filter: blur(72px);
+}
