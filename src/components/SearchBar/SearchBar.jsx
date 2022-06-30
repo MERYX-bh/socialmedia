@@ -6,7 +6,7 @@ const SearchBar = () => {
   return (
     <div className='SearchBarContainer'>
         <div className="Search">
-     <input type="text" placeholder='Explore' />
+     <input type="text" placeholder='Search for people you may know...' />
      <div className="s-icon">
                <UilSearch/>
            </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import PostsSide from '../../components/PostsSide/PostsSide'
 import ProfilePart from '../../components/ProfilePart/ProfilePart'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import TrendsSide from '../../components/TrendSide/TrendsSide'
@@ -8,7 +9,7 @@ const Home = () => {
   return (
         <div className="Home">
         <TrendsSide/>
-        <SearchBar/>
+        <PostsSide/>
         <ProfilePart/>
         </div>
   )
