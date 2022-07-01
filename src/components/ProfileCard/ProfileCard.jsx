@@ -1,5 +1,5 @@
 import React from 'react'
-import profilpic from '../../img/istockphoto-1300972573-612x612.jpg'
+import profilpic from '../../img/profile.jpg'
 import coverPic from '../../img/cover.jpg'
 import './ProfileCard.css'
 

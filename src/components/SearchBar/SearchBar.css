@@ -9,13 +9,13 @@
     border-color: beige;
     border-radius: 10px;
     padding: 5px;
- 
+    
 }
 .Search>input{
     background-color: white;
     border: none;
     outline: none;
-    width: 850px;
+    width: 240px;
     font-size: 17px;
 }
 .s-icon{
