@@ -7,14 +7,14 @@ export const PostsData = [
     {
         img: postPic1,
         name: 'Yasser',
-        desc: "Happy New Year all friends! #2023",
+        desc: "king of luxury real estate ! #2023",
         likes: 2300,
         liked: true
     },
     {
         img: postPic2,
         name: 'Maryam',
-        desc: "Party time :)",
+        desc: "we are hiring :)",
         likes: 2300,
         liked: false
 
@@ -22,7 +22,7 @@ export const PostsData = [
     {
         img:postPic3,
         name: "Ahmeed",
-        desc: "At Archery Festival",
+        desc: "Special summer sale",
         likes: 800,
         liked: false
     }

@@ -7,6 +7,13 @@ import { UilLocationPoint } from "@iconscout/react-unicons";
 import { UilSchedule } from "@iconscout/react-unicons";
 import { UilTimes } from "@iconscout/react-unicons";
 
+// WHAT I LEARNED HERE
+// event.target.file : to store the files
+// setImage({
+//   image: URL.createObjectURL(img),
+// }) => to initalize the element : image.image
+
+
 const SharePart =
  () => {
   const [image, setImage] = useState(null);
@@ -57,13 +64,13 @@ const SharePart =
          </div>
 
          {image && (
-
-<div className="previewImage">
-  <UilTimes onClick={()=>setImage(null)}/>
-  {/* setImage(null) : un boutton pour supprimer l'image */}
-  <img src={image.image} alt="" />
-</div>
-)}
+          
+          <div className="previewImage">
+          <UilTimes onClick={()=>setImage(null)}/>
+          {/* setImage(null) : un boutton pour supprimer l'image */}
+          <img src={image.image} alt="" />
+          </div>
+         )}
 
         </div>
 

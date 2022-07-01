@@ -1,7 +1,8 @@
 .PostsSide{
     display: flex;
     gap: 1rem;;
-    overflow: auto;
-    height: 100vh;
+    overflow: scroll;
     flex-direction: column;
+    -ms-overflow-style: none;
+  scrollbar-width: none;
 }

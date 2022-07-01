@@ -37,3 +37,6 @@
   background: #d0c0ff;
   filter: blur(72px);
 }
+::-webkit-scrollbar{
+  display: none;
+}
