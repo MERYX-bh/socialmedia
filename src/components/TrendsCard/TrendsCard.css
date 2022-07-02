@@ -1,0 +1,19 @@
+.TrendsCard{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.trend{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.TrendsCard>h3{
+    align-self: center;
+    margin-bottom: 15px;
+}
+

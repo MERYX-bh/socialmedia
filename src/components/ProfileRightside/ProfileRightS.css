@@ -1,5 +1,4 @@
-
-.TrendsSide>button{
+.ProfileRight>button{
     margin-left: 50px;
     margin-top: 20px;
     width: 200px;
@@ -11,7 +10,7 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.TrendsSide>button:hover{
+.ProfileRight>button:hover{
     cursor: pointer;
     color: rgb(40, 107, 253);
     background: transparent;
